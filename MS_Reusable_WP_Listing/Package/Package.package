@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" dslVersion="1.0.0.0" Id="cf7c8c3e-0331-4dbc-b0b0-6a28151baef6" solutionId="cf7c8c3e-0331-4dbc-b0b0-6a28151baef6" resetWebServer="false" sharePointProductVersion="19.0" name="MS_Reusable_WP_Listing" xmlns="http://schemas.microsoft.com/VisualStudio/2008/SharePointTools/PackageModel">
+  <features>
+    <featureReference itemId="cbb8d32d-8114-44fc-b04a-56b5352f14f6" />
+  </features>
+</package>

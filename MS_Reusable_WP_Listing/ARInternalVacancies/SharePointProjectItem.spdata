@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ProjectItem Type="Microsoft.VisualStudio.SharePoint.VisualWebPart" DefaultFile="ARInternalVacanciesUserControl.ascx" SupportedTrustLevels="FullTrust" SupportedDeploymentScopes="Site" xmlns="http://schemas.microsoft.com/VisualStudio/2010/SharePointTools/SharePointProjectItemModel">
+  <Files>
+    <ProjectItemFile Source="Elements.xml" Target="ARInternalVacancies\" Type="ElementManifest" />
+    <ProjectItemFile Source="ARInternalVacancies.webpart" Target="ARInternalVacancies\" Type="ElementFile" />
+    <ProjectItemFile Source="ARInternalVacanciesUserControl.ascx" Target="CONTROLTEMPLATES\MS_Reusable_WP_Listing\ARInternalVacancies\" Type="TemplateFile" />
+  </Files>
+  <SafeControls>
+    <SafeControl Name="SafeControlEntry1" Assembly="$SharePoint.Project.AssemblyFullName$" Namespace="MS_Reusable_WP_Listing.ARInternalVacancies" TypeName="*" IsSafe="true" IsSafeAgainstScript="false" />
+  </SafeControls>
+</ProjectItem>

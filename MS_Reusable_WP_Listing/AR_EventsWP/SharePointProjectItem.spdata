@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ProjectItem Type="Microsoft.VisualStudio.SharePoint.VisualWebPart" DefaultFile="AR_EventsWPUserControl.ascx" SupportedTrustLevels="FullTrust" SupportedDeploymentScopes="Site" xmlns="http://schemas.microsoft.com/VisualStudio/2010/SharePointTools/SharePointProjectItemModel">
+  <Files>
+    <ProjectItemFile Source="Elements.xml" Target="AR_EventsWP\" Type="ElementManifest" />
+    <ProjectItemFile Source="AR_EventsWP.webpart" Target="AR_EventsWP\" Type="ElementFile" />
+    <ProjectItemFile Source="AR_EventsWPUserControl.ascx" Target="CONTROLTEMPLATES\MS_Reusable_WP_Listing\AR_EventsWP\" Type="TemplateFile" />
+  </Files>
+  <SafeControls>
+    <SafeControl Name="SafeControlEntry1" Assembly="$SharePoint.Project.AssemblyFullName$" Namespace="MS_Reusable_WP_Listing.AR_EventsWP" TypeName="*" IsSafe="true" IsSafeAgainstScript="false" />
+  </SafeControls>
+</ProjectItem>

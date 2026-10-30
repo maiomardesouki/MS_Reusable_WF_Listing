@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/" >
+  <Module Name="AR_InternalAnnounWP" List="113" Url="_catalogs/wp">
+    <File Path="AR_InternalAnnounWP\AR_InternalAnnounWP.webpart" Url="MS_Reusable_WP_Listing_AR_InternalAnnounWP.webpart" Type="GhostableInLibrary" >
+      <Property Name="Group" Value="Custom" />
+    </File>
+  </Module>
+</Elements>

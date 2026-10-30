@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Solution xmlns="http://schemas.microsoft.com/sharepoint/" SolutionId="cf7c8c3e-0331-4dbc-b0b0-6a28151baef6" SharePointProductVersion="19.0">
+  <Assemblies>
+    <Assembly Location="MS_Reusable_WP_Listing.dll" DeploymentTarget="GlobalAssemblyCache">
+      <SafeControls>
+        <SafeControl Assembly="MS_Reusable_WP_Listing, Version=1.0.0.0, Culture=neutral, PublicKeyToken=496cdbb56b5c3083" Namespace="MS_Reusable_WP_Listing.VisualWebPart1" TypeName="*" />
+        <SafeControl Assembly="MS_Reusable_WP_Listing, Version=1.0.0.0, Culture=neutral, PublicKeyToken=496cdbb56b5c3083" Namespace="MS_Reusable_WP_Listing.EventsWP" TypeName="*" />
+        <SafeControl Assembly="MS_Reusable_WP_Listing, Version=1.0.0.0, Culture=neutral, PublicKeyToken=496cdbb56b5c3083" Namespace="MS_Reusable_WP_Listing.ReusableImagesWP2" TypeName="*" />
+        <SafeControl Assembly="MS_Reusable_WP_Listing, Version=1.0.0.0, Culture=neutral, PublicKeyToken=496cdbb56b5c3083" Namespace="MS_Reusable_WP_Listing.ReusableNewsWP" TypeName="*" />
+        <SafeControl Assembly="MS_Reusable_WP_Listing, Version=1.0.0.0, Culture=neutral, PublicKeyToken=496cdbb56b5c3083" Namespace="MS_Reusable_WP_Listing.ReusablePictureWP" TypeName="*" />
+        <SafeControl Assembly="MS_Reusable_WP_Listing, Version=1.0.0.0, Culture=neutral, PublicKeyToken=496cdbb56b5c3083" Namespace="MS_Reusable_WP_Listing.EventDetailsWP" TypeName="*" />
+        <SafeControl Assembly="MS_Reusable_WP_Listing, Version=1.0.0.0, Culture=neutral, PublicKeyToken=496cdbb56b5c3083" Namespace="MS_Reusable_WP_Listing.SecReuseImgWP1" TypeName="*" />
+        <SafeControl Assembly="MS_Reusable_WP_Listing, Version=1.0.0.0, Culture=neutral, PublicKeyToken=496cdbb56b5c3083" Namespace="MS_Reusable_WP_Listing.InternalVacancies" TypeName="*" />
+        <SafeControl Assembly="MS_Reusable_WP_Listing, Version=1.0.0.0, Culture=neutral, PublicKeyToken=496cdbb56b5c3083" Namespace="MS_Reusable_WP_Listing.ARInternalVacancies" TypeName="*" />
+        <SafeControl Assembly="MS_Reusable_WP_Listing, Version=1.0.0.0, Culture=neutral, PublicKeyToken=496cdbb56b5c3083" Namespace="MS_Reusable_WP_Listing.AR_EmployeeHandbook" TypeName="*" />
+        <SafeControl Assembly="MS_Reusable_WP_Listing, Version=1.0.0.0, Culture=neutral, PublicKeyToken=496cdbb56b5c3083" Namespace="MS_Reusable_WP_Listing.AR_EventsWP" TypeName="*" />
+        <SafeControl Assembly="MS_Reusable_WP_Listing, Version=1.0.0.0, Culture=neutral, PublicKeyToken=496cdbb56b5c3083" Namespace="MS_Reusable_WP_Listing.AR_InternalAnnounWP" TypeName="*" />
+        <SafeControl Assembly="MS_Reusable_WP_Listing, Version=1.0.0.0, Culture=neutral, PublicKeyToken=496cdbb56b5c3083" Namespace="MS_Reusable_WP_Listing.AR_ReusableNewsWP" TypeName="*" />
+      </SafeControls>
+    </Assembly>
+  </Assemblies>
+  <TemplateFiles>
+    <TemplateFile Location="CONTROLTEMPLATES\MS_Reusable_WP_Listing\VisualWebPart1\VisualWebPart1UserControl.ascx" />
+    <TemplateFile Location="CONTROLTEMPLATES\MS_Reusable_WP_Listing\EventsWP\EventsWPUserControl.ascx" />
+    <TemplateFile Location="CONTROLTEMPLATES\MS_Reusable_WP_Listing\ReusableImagesWP2\ReusableImagesWP2UserControl.ascx" />
+    <TemplateFile Location="CONTROLTEMPLATES\MS_Reusable_WP_Listing\ReusableNewsWP\ReusableNewsWPUserControl.ascx" />
+    <TemplateFile Location="CONTROLTEMPLATES\MS_Reusable_WP_Listing\ReusablePictureWP\ReusablePictureWPUserControl.ascx" />
+    <TemplateFile Location="CONTROLTEMPLATES\MS_Reusable_WP_Listing\EventDetailsWP\EventDetailsWPUserControl.ascx" />
+    <TemplateFile Location="CONTROLTEMPLATES\MS_Reusable_WP_Listing\SecReuseImgWP1\SecReuseImgWP1UserControl.ascx" />
+    <TemplateFile Location="CONTROLTEMPLATES\MS_Reusable_WP_Listing\InternalVacancies\InternalVacanciesUserControl.ascx" />
+    <TemplateFile Location="CONTROLTEMPLATES\MS_Reusable_WP_Listing\ARInternalVacancies\ARInternalVacanciesUserControl.ascx" />
+    <TemplateFile Location="CONTROLTEMPLATES\MS_Reusable_WP_Listing\AR_EmployeeHandbook\AR_EmployeeHandbookUserControl.ascx" />
+    <TemplateFile Location="CONTROLTEMPLATES\MS_Reusable_WP_Listing\AR_EventsWP\AR_EventsWPUserControl.ascx" />
+    <TemplateFile Location="CONTROLTEMPLATES\MS_Reusable_WP_Listing\AR_InternalAnnounWP\AR_InternalAnnounWPUserControl.ascx" />
+    <TemplateFile Location="CONTROLTEMPLATES\MS_Reusable_WP_Listing\AR_ReusableNewsWP\AR_ReusableNewsWPUserControl.ascx" />
+  </TemplateFiles>
+  <FeatureManifests>
+    <FeatureManifest Location="MS_Reusable_WP_Listing_Feature1\Feature.xml" />
+  </FeatureManifests>
+</Solution>

@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ProjectItem Type="Microsoft.VisualStudio.SharePoint.VisualWebPart" DefaultFile="InternalVacanciesUserControl.ascx" SupportedTrustLevels="FullTrust" SupportedDeploymentScopes="Site" xmlns="http://schemas.microsoft.com/VisualStudio/2010/SharePointTools/SharePointProjectItemModel">
+  <Files>
+    <ProjectItemFile Source="Elements.xml" Target="InternalVacancies\" Type="ElementManifest" />
+    <ProjectItemFile Source="InternalVacancies.webpart" Target="InternalVacancies\" Type="ElementFile" />
+    <ProjectItemFile Source="InternalVacanciesUserControl.ascx" Target="CONTROLTEMPLATES\MS_Reusable_WP_Listing\InternalVacancies\" Type="TemplateFile" />
+  </Files>
+  <SafeControls>
+    <SafeControl Name="SafeControlEntry1" Assembly="$SharePoint.Project.AssemblyFullName$" Namespace="MS_Reusable_WP_Listing.InternalVacancies" TypeName="*" IsSafe="true" IsSafeAgainstScript="false" />
+  </SafeControls>
+</ProjectItem>

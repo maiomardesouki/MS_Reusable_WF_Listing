@@ -1,0 +1,267 @@
+﻿<Project ToolsVersion="17.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{4F2B54B6-034D-4077-90D6-7D2D3DC8E507}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>MS_Reusable_WP_Listing</RootNamespace>
+    <AssemblyName>MS_Reusable_WP_Listing</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <TargetOfficeVersion>19.0</TargetOfficeVersion>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{C1CDDADD-2546-481F-9697-4EA41081F2FC};{14822709-B5A1-4724-98CA-57A101D1B079};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <MinimumVisualStudioVersion>15.0</MinimumVisualStudioVersion>
+    <MinimumOfficeToolsVersion>14.1</MinimumOfficeToolsVersion>
+    <SandboxedSolution>False</SandboxedSolution>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignAssembly>true</SignAssembly>
+  </PropertyGroup>
+  <PropertyGroup>
+    <AssemblyOriginatorKeyFile>key.snk</AssemblyOriginatorKeyFile>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="Microsoft.SharePoint" />
+    <Reference Include="Microsoft.SharePoint.Client.ServerRuntime" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ARInternalVacancies\ARInternalVacancies.cs" />
+    <Compile Include="ARInternalVacancies\ARInternalVacanciesUserControl.ascx.cs">
+      <DependentUpon>ARInternalVacanciesUserControl.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ARInternalVacancies\ARInternalVacanciesUserControl.ascx.designer.cs">
+      <DependentUpon>ARInternalVacanciesUserControl.ascx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AR_EmployeeHandbook\AR_EmployeeHandbook.cs" />
+    <Compile Include="AR_EmployeeHandbook\AR_EmployeeHandbookUserControl.ascx.cs">
+      <DependentUpon>AR_EmployeeHandbookUserControl.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AR_EmployeeHandbook\AR_EmployeeHandbookUserControl.ascx.designer.cs">
+      <DependentUpon>AR_EmployeeHandbookUserControl.ascx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AR_EventsWP\AR_EventsWP.cs" />
+    <Compile Include="AR_EventsWP\AR_EventsWPUserControl.ascx.cs">
+      <DependentUpon>AR_EventsWPUserControl.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AR_EventsWP\AR_EventsWPUserControl.ascx.designer.cs">
+      <DependentUpon>AR_EventsWPUserControl.ascx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AR_InternalAnnounWP\AR_InternalAnnounWP.cs" />
+    <Compile Include="AR_InternalAnnounWP\AR_InternalAnnounWPUserControl.ascx.cs">
+      <DependentUpon>AR_InternalAnnounWPUserControl.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AR_InternalAnnounWP\AR_InternalAnnounWPUserControl.ascx.designer.cs">
+      <DependentUpon>AR_InternalAnnounWPUserControl.ascx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AR_ReusableNewsWP\AR_ReusableNewsWP.cs" />
+    <Compile Include="AR_ReusableNewsWP\AR_ReusableNewsWPUserControl.ascx.cs">
+      <DependentUpon>AR_ReusableNewsWPUserControl.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AR_ReusableNewsWP\AR_ReusableNewsWPUserControl.ascx.designer.cs">
+      <DependentUpon>AR_ReusableNewsWPUserControl.ascx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EventDetailsWP\EventDetailsWP.cs" />
+    <Compile Include="EventDetailsWP\EventDetailsWPUserControl.ascx.cs">
+      <DependentUpon>EventDetailsWPUserControl.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="EventDetailsWP\EventDetailsWPUserControl.ascx.designer.cs">
+      <DependentUpon>EventDetailsWPUserControl.ascx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EventsWP\EventsWP.cs" />
+    <Compile Include="EventsWP\EventsWPUserControl.ascx.cs">
+      <DependentUpon>EventsWPUserControl.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="EventsWP\EventsWPUserControl.ascx.designer.cs">
+      <DependentUpon>EventsWPUserControl.ascx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="InternalVacancies\InternalVacancies.cs" />
+    <Compile Include="InternalVacancies\InternalVacanciesUserControl.ascx.cs">
+      <DependentUpon>InternalVacanciesUserControl.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="InternalVacancies\InternalVacanciesUserControl.ascx.designer.cs">
+      <DependentUpon>InternalVacanciesUserControl.ascx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ReusableImagesWP2\ReusableImagesWP2.cs" />
+    <Compile Include="ReusableImagesWP2\ReusableImagesWP2UserControl.ascx.cs">
+      <DependentUpon>ReusableImagesWP2UserControl.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ReusableImagesWP2\ReusableImagesWP2UserControl.ascx.designer.cs">
+      <DependentUpon>ReusableImagesWP2UserControl.ascx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ReusableNewsWP\ImageHelper.cs" />
+    <Compile Include="ReusableNewsWP\ReusableNewsWP.cs" />
+    <Compile Include="ReusableNewsWP\ReusableNewsWPUserControl.ascx.cs">
+      <DependentUpon>ReusableNewsWPUserControl.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ReusableNewsWP\ReusableNewsWPUserControl.ascx.designer.cs">
+      <DependentUpon>ReusableNewsWPUserControl.ascx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ReusablePictureWP\ReusablePictureWP.cs" />
+    <Compile Include="ReusablePictureWP\ReusablePictureWPUserControl.ascx.cs">
+      <DependentUpon>ReusablePictureWPUserControl.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ReusablePictureWP\ReusablePictureWPUserControl.ascx.designer.cs">
+      <DependentUpon>ReusablePictureWPUserControl.ascx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SecReuseImgWP1\SecReuseImgWP1.cs" />
+    <Compile Include="SecReuseImgWP1\SecReuseImgWP1UserControl.ascx.cs">
+      <DependentUpon>SecReuseImgWP1UserControl.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SecReuseImgWP1\SecReuseImgWP1UserControl.ascx.designer.cs">
+      <DependentUpon>SecReuseImgWP1UserControl.ascx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="VisualWebPart1\VisualWebPart1.cs" />
+    <Compile Include="VisualWebPart1\VisualWebPart1UserControl.ascx.cs">
+      <DependentUpon>VisualWebPart1UserControl.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="VisualWebPart1\VisualWebPart1UserControl.ascx.designer.cs">
+      <DependentUpon>VisualWebPart1UserControl.ascx.cs</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ARInternalVacancies\ARInternalVacancies.webpart" />
+    <None Include="ARInternalVacancies\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{dc82db7c-2087-4c9a-aa3e-7654500fdadd}</SharePointProjectItemId>
+    </None>
+    <None Include="AR_EmployeeHandbook\AR_EmployeeHandbook.webpart" />
+    <None Include="AR_EmployeeHandbook\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{1a5b6b7a-d689-47d6-82fa-629785db72ad}</SharePointProjectItemId>
+    </None>
+    <None Include="AR_EventsWP\AR_EventsWP.webpart" />
+    <None Include="AR_EventsWP\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{f960315a-fcbf-4a95-b510-b41cb14265ca}</SharePointProjectItemId>
+    </None>
+    <None Include="AR_InternalAnnounWP\AR_InternalAnnounWP.webpart" />
+    <None Include="AR_InternalAnnounWP\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{6fcda88b-b173-4f63-b2b2-35933b5a0280}</SharePointProjectItemId>
+    </None>
+    <None Include="AR_ReusableNewsWP\AR_ReusableNewsWP.webpart" />
+    <None Include="AR_ReusableNewsWP\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{d08a4420-c772-4f23-8050-edb7f20f5111}</SharePointProjectItemId>
+    </None>
+    <None Include="EventDetailsWP\EventDetailsWP.webpart" />
+    <None Include="EventDetailsWP\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{f4dc05f0-9bf3-448e-9db7-64d5dfaaf35b}</SharePointProjectItemId>
+    </None>
+    <None Include="EventsWP\EventsWP.webpart" />
+    <None Include="EventsWP\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{b9c7d9e1-8c98-421e-8a2c-7602595c4388}</SharePointProjectItemId>
+    </None>
+    <None Include="Features\Feature1\Feature1.feature">
+      <FeatureId>{cbb8d32d-8114-44fc-b04a-56b5352f14f6}</FeatureId>
+    </None>
+    <None Include="InternalVacancies\InternalVacancies.webpart" />
+    <None Include="InternalVacancies\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{c0da1585-1119-45b5-930d-28ea273ba9ed}</SharePointProjectItemId>
+    </None>
+    <None Include="key.snk" />
+    <None Include="Package\Package.package">
+      <PackageId>{cf7c8c3e-0331-4dbc-b0b0-6a28151baef6}</PackageId>
+    </None>
+    <None Include="Package\Package.Template.xml">
+      <DependentUpon>Package.package</DependentUpon>
+    </None>
+    <None Include="ReusableImagesWP2\ReusableImagesWP2.webpart" />
+    <None Include="ReusableImagesWP2\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{c2ec1372-6a5b-401a-a11f-1de2f51005d7}</SharePointProjectItemId>
+    </None>
+    <None Include="ReusableNewsWP\ReusableNewsWP.webpart" />
+    <None Include="ReusableNewsWP\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{22878cff-eb1b-4033-b323-702b8214dae2}</SharePointProjectItemId>
+    </None>
+    <None Include="ReusablePictureWP\ReusablePictureWP.webpart" />
+    <None Include="ReusablePictureWP\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{6cacba8e-fba0-4dc5-89eb-45c8c5d04e4e}</SharePointProjectItemId>
+    </None>
+    <None Include="SecReuseImgWP1\SecReuseImgWP1.webpart" />
+    <None Include="SecReuseImgWP1\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{e3daca24-29c5-479f-b552-2484726f8251}</SharePointProjectItemId>
+    </None>
+    <None Include="VisualWebPart1\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{13b60f61-05d8-4f3a-900e-6cc2654b8fdb}</SharePointProjectItemId>
+    </None>
+    <None Include="VisualWebPart1\VisualWebPart1.webpart" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="ARInternalVacancies\ARInternalVacanciesUserControl.ascx" />
+    <Content Include="ARInternalVacancies\Elements.xml" />
+    <Content Include="AR_EmployeeHandbook\AR_EmployeeHandbookUserControl.ascx" />
+    <Content Include="AR_EmployeeHandbook\Elements.xml" />
+    <Content Include="AR_EventsWP\AR_EventsWPUserControl.ascx" />
+    <Content Include="AR_EventsWP\Elements.xml" />
+    <Content Include="AR_InternalAnnounWP\AR_InternalAnnounWPUserControl.ascx" />
+    <Content Include="AR_InternalAnnounWP\Elements.xml" />
+    <Content Include="AR_ReusableNewsWP\AR_ReusableNewsWPUserControl.ascx" />
+    <Content Include="AR_ReusableNewsWP\Elements.xml" />
+    <Content Include="EventDetailsWP\Elements.xml" />
+    <Content Include="EventDetailsWP\EventDetailsWPUserControl.ascx" />
+    <Content Include="EventsWP\Elements.xml" />
+    <Content Include="EventsWP\EventsWPUserControl.ascx" />
+    <Content Include="Features\Feature1\Feature1.Template.xml">
+      <DependentUpon>Feature1.feature</DependentUpon>
+    </Content>
+    <Content Include="InternalVacancies\Elements.xml" />
+    <Content Include="InternalVacancies\InternalVacanciesUserControl.ascx" />
+    <Content Include="ReusableImagesWP2\Elements.xml" />
+    <Content Include="ReusableImagesWP2\ReusableImagesWP2UserControl.ascx" />
+    <Content Include="ReusableNewsWP\Elements.xml" />
+    <Content Include="ReusableNewsWP\ReusableNewsWPUserControl.ascx" />
+    <Content Include="ReusablePictureWP\Elements.xml" />
+    <Content Include="ReusablePictureWP\ReusablePictureWPUserControl.ascx" />
+    <Content Include="SecReuseImgWP1\Elements.xml" />
+    <Content Include="SecReuseImgWP1\SecReuseImgWP1UserControl.ascx" />
+    <Content Include="VisualWebPart1\Elements.xml" />
+    <Content Include="VisualWebPart1\VisualWebPart1UserControl.ascx" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(VSToolsPath)\SharePointTools\Microsoft.VisualStudio.SharePoint.targets" Condition="'$(VSToolsPath)' != '' and Exists('$(VSToolsPath)\SharePointTools\Microsoft.VisualStudio.SharePoint.targets')" />
+</Project>

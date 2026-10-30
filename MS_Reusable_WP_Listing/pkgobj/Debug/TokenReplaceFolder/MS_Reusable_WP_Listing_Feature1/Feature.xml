@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Feature xmlns="http://schemas.microsoft.com/sharepoint/" Id="450a275f-9f33-485b-90d9-097c0973dab4" Scope="Site" Title="MS_Reusable_WP_Listing Feature1">
+  <ElementManifests>
+    <ElementManifest Location="VisualWebPart1\Elements.xml" />
+    <ElementFile Location="VisualWebPart1\VisualWebPart1.webpart" />
+    <ElementManifest Location="EventsWP\Elements.xml" />
+    <ElementFile Location="EventsWP\EventsWP.webpart" />
+    <ElementManifest Location="ReusableImagesWP2\Elements.xml" />
+    <ElementFile Location="ReusableImagesWP2\ReusableImagesWP2.webpart" />
+    <ElementManifest Location="ReusableNewsWP\Elements.xml" />
+    <ElementFile Location="ReusableNewsWP\ReusableNewsWP.webpart" />
+    <ElementManifest Location="ReusablePictureWP\Elements.xml" />
+    <ElementFile Location="ReusablePictureWP\ReusablePictureWP.webpart" />
+    <ElementManifest Location="EventDetailsWP\Elements.xml" />
+    <ElementFile Location="EventDetailsWP\EventDetailsWP.webpart" />
+    <ElementManifest Location="SecReuseImgWP1\Elements.xml" />
+    <ElementFile Location="SecReuseImgWP1\SecReuseImgWP1.webpart" />
+    <ElementManifest Location="InternalVacancies\Elements.xml" />
+    <ElementFile Location="InternalVacancies\InternalVacancies.webpart" />
+    <ElementManifest Location="ARInternalVacancies\Elements.xml" />
+    <ElementFile Location="ARInternalVacancies\ARInternalVacancies.webpart" />
+    <ElementManifest Location="AR_EmployeeHandbook\Elements.xml" />
+    <ElementFile Location="AR_EmployeeHandbook\AR_EmployeeHandbook.webpart" />
+    <ElementManifest Location="AR_EventsWP\Elements.xml" />
+    <ElementFile Location="AR_EventsWP\AR_EventsWP.webpart" />
+    <ElementManifest Location="AR_InternalAnnounWP\Elements.xml" />
+    <ElementFile Location="AR_InternalAnnounWP\AR_InternalAnnounWP.webpart" />
+    <ElementManifest Location="AR_ReusableNewsWP\Elements.xml" />
+    <ElementFile Location="AR_ReusableNewsWP\AR_ReusableNewsWP.webpart" />
+  </ElementManifests>
+</Feature>

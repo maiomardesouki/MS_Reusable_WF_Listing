@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/" >
+  <Module Name="SecReuseImgWP1" List="113" Url="_catalogs/wp">
+    <File Path="SecReuseImgWP1\SecReuseImgWP1.webpart" Url="MS_Reusable_WP_Listing_SecReuseImgWP1.webpart" Type="GhostableInLibrary" >
+      <Property Name="Group" Value="Custom" />
+    </File>
+  </Module>
+</Elements>

@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<webParts>
+  <webPart xmlns="http://schemas.microsoft.com/WebPart/v3">
+    <metaData>
+      <type name="MS_Reusable_WP_Listing.SecReuseImgWP1.SecReuseImgWP1, $SharePoint.Project.AssemblyFullName$" />
+      <importErrorMessage>$Resources:core,ImportErrorMessage;</importErrorMessage>
+    </metaData>
+    <data>
+      <properties>
+        <property name="Title" type="string">MS_Reusable_WP_Listing - SecReuseImgWP1</property>
+        <property name="Description" type="string">Secondary Reusable Images Web Part with custom link field</property>
+      </properties>
+    </data>
+  </webPart>
+</webParts>
